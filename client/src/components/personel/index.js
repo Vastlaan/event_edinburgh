@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Img1 from "../../img/jeroen.jpg";
-import Img2 from "../../img/jens.jpg";
+import Img1 from "../../img/rory.jpg";
+import Img2 from "../../img/sam.jpg";
+import Img3 from "../../img/hans.jpg";
 import { respond, fonts, TextBold, FlexCol, Heading3 } from "../../styles";
 import { BiMailSend } from "react-icons/bi";
 import { SiGooglecalendar } from "react-icons/si";
@@ -15,7 +16,7 @@ const data = [
     description: "Send me an email or schedule a meeting for 30 min",
     mail: "sam.stiles@and.digital",
     calendar:
-      "https://calendar.google.com/calendar/u/0/r/eventedit?overrides=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%22jens.vankerkvoort%40and.digital%22%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D",
+      "https://calendar.google.com/calendar/u/0/r/eventedit?overrides=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%22sam.stiles%40and.digital%22%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D&pli=1",
   },
   {
     id: "person-2",
@@ -25,17 +26,17 @@ const data = [
     description: "Send me an email or schedule a meeting for 30 min",
     mail: "rory.patience@and.digital",
     calendar:
-      "https://calendar.google.com/calendar/u/0/r/eventedit?overrides=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%22jeroen.kleinhoven%40and.digital%22%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D",
+      "https://calendar.google.com/calendar/u/0/r/eventedit?overrides=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%22rory.patience%40and.digital%22%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D&pli=1",
   },
   {
     id: "person-3",
-    img: Img1,
+    img: Img3,
     name: "Hans Smans",
     function: "Head of Marketing",
     description: "Send me an email or schedule a meeting for 30 min",
     mail: "hans.smans@and.digital",
     calendar:
-      "https://calendar.google.com/calendar/u/0/r/eventedit?overrides=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%22jeroen.kleinhoven%40and.digital%22%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D",
+      "https://calendar.google.com/calendar/u/0/r/eventedit?overrides=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B%22hans.smans%40and.digital%22%5D%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%5D&pli=1",
   },
 ];
 
